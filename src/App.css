@@ -1,0 +1,231 @@
+:root{
+  --drkBG: #fcde67;
+  --drkTXT: #030e12;
+  --border: #5bccf6;
+}
+
+*{
+  
+  color: var(--drkTXT);
+  margin: 0;
+}
+
+body{
+  background-color: var(--drkBG)
+}
+
+h1{
+  margin: 0;
+  background-color: inherit;
+  padding: 0 0 10px 7px;   
+}
+
+h2{
+  font-size: 250%;
+  border-right: 3px solid var(--border);
+  min-width: 15%;
+  color: var(--drkTXT);
+}
+
+h3{
+  font-weight: bold;
+  font-size: large;
+  margin: 0 0 10px 0;
+}
+
+p{
+  line-height: 1.5;
+  text-indent: 40px;
+}
+
+a{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+#topper{
+  margin:0;
+}
+
+
+
+.picture{
+  border-radius: 50%;
+  width: 300px;
+  height: auto;
+  
+}
+
+.navbar, a{
+  background-color: inherit;
+  margin: 3px;
+}
+
+.navbar > a:hover{
+  color: var(--drkBG);
+}
+
+#head{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: var(--border);
+  height: 80px;
+  font-size: 150%;
+  color: white;
+  padding-right: 7px;
+}
+
+#page{
+  /* not my initial plan but saw this in the solved HW.
+  I like that it doesn't rely on setting padding and keeps the page at a percentage, regardless of screen-width, making it more mobile friendly imo*/
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 150%;
+  margin-top: 50px;
+}
+
+
+#about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 20px 0 25px 0;
+}
+
+.bio{
+  display: inherit;
+  flex: 0 0 80%;
+  flex-direction: column;
+}
+
+address > a{
+  text-decoration: underline;
+}
+
+address > a:hover{
+  color: white;
+}
+
+#work{
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.container{
+  flex: 0 0 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.box{
+  border: 5px solid var(--border);
+  background-color: var(--primary);
+  display: flex;
+  align-items: flex-end;
+  flex: 0 0 25%;
+  margin: 3px;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  background-size: cover;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.box:hover > .info{
+  box-shadow: 10px 5px 5px ;
+  
+}
+
+.info{
+  background-color: var(--border);
+  margin: 0 0 20px 0;
+  border: 3px solid var(--border);
+  border-style: solid solid solid none;
+  font-size: small;
+  padding: 10px;
+  font-size: 100%;
+        
+}
+
+.box:first-child{
+  min-height: 375px;
+  flex-basis: 77%; /*I just kept changing this by a percentage until it lined up with the rest of my work. Not sure if there was a better/easier way.*/
+}
+
+.comic-call{
+  
+  font-family: 'Bangers', cursive;
+}
+
+.pass-gen{
+  
+  background-color: white;
+}
+
+#contact{
+  display: block;
+  text-align: center;
+  margin: 100px 0 15px 0;
+  
+}
+
+#contact > h2{
+  border-right: none;
+  border-bottom: 2px dashed white;
+}
+
+address{
+  padding-top: 15px;
+  font-size: 110%;
+}
+
+@media screen and (max-width: 1600px) {
+  #about{
+      flex-direction: column;
+      align-items: center;
+  }    
+  #about > h2{
+      border-right: 0;
+      border-bottom: 5px solid var(--border);
+      margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #about, #work{
+      flex-direction: column;
+      align-items: center;
+  }
+  h2{
+      border-right: 0;
+      border-bottom: 5px solid var(--border);
+      margin-bottom: 10px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  #head, #about, #work{
+      flex-direction: column;
+      align-items: center;
+  }
+  h2{
+      border-right: 0;
+      border-bottom: 5px solid var(--border);
+      margin-bottom: 10px;
+  }
+  
+}

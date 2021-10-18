@@ -15,13 +15,13 @@ export default function Project() {
                     <span>JavaScript</span>
                 </div>
             </a>
-            <a href="#" class='box day-planner'>
+            <a href="https://shiel1dm.github.io/daily-planner/" class='box day-planner'>
                 <div class ='info'>
                     <h3>Day Planner</h3>
                     <span>Work in Progress</span>
                 </div>
             </a>
-            <a href="#" class='box weather'>
+            <a href="https://shiel1dm.github.io/daily-planner/" class='box weather'>
                 <div class ='info'>
                     <h3>Weather Check</h3>
                     <span>Work in Progress</span>
