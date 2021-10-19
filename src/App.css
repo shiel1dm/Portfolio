@@ -51,7 +51,7 @@ a{
 
 
 #banner{
-  background-image: url(http://localhost:3000/banner_img.jpg);
+  background-image: url(http://shiel1dm.github.io/Portfolio/banner_img.jpg);
   height: 450px;
   background-size: cover;
   display: block;
@@ -181,28 +181,28 @@ address > a:hover{
 }
 
 .comic-call{
-  background-image: url(shiel1dm.github.io/Portfolio/Spidey.jpg);
+  background-image: url(http://shiel1dm.github.io/Portfolio/Spidey.jpg);
   font-family: 'Bangers', cursive;
 }
 
 .budgeteer{
-  background-image: url(http://localhost:3000/Budgeteer.png);
+  background-image: url(http://shiel1dm.github.io/Portfolio/Budgeteer.png);
 }
 
 .fitness{
-  background-image: url(http://localhost:3000/Fitness.jpg);
+  background-image: url(http://shiel1dm.github.io/Portfolio/Fitness.jpg);
 }
 
 .garden{
-  background-image: url(http://localhost:3000/GardenBlog.png);
+  background-image: url(http://shiel1dm.github.io/Portfolio/GardenBlog.png);
 }
 
 .warehouse{
-  background-image: url(http://localhost:3000/Warehouse.png);
+  background-image: url(http://shiel1dm.github.io/Portfolio/Warehouse.png);
 }
 
 .e-manage{
-  background-image: url(http://localhost:3000/Team.jpg);
+  background-image: url(http://shiel1dm.github.io/Portfolio/Team.jpg);
 }
 
 #contact{
