@@ -181,7 +181,7 @@ address > a:hover{
 }
 
 .comic-call{
-  background-image: url(http://localhost:3000/Spidey.jpg);
+  background-image: url(./Portfolio/Spidey.jpg);
   font-family: 'Bangers', cursive;
 }
 
