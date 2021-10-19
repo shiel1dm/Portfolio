@@ -19,7 +19,7 @@ export default function Project() {
                     <a href="https://github.com/shiel1dm/fit-ing-in">Github Repo</a>
                 </div>
             </a>
-            <a href="https://shiel1dm.github.io/BunchOfHoes/" class='box garden'>
+            <a href="https://salty-ravine-80374.herokuapp.com//" class='box garden'>
                 <div class ='info'>
                     <h3>Wordpress Blog</h3>
                     <span>JS, Handlebars, Express, MYSQL</span>
