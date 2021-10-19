@@ -5,7 +5,6 @@
 }
 
 *{
-  
   color: var(--drkTXT);
   margin: 0;
 }
@@ -21,6 +20,9 @@ h1{
 }
 
 h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 250%;
   border-right: 3px solid var(--border);
   min-width: 15%;
@@ -34,7 +36,9 @@ h3{
 }
 
 p{
-  line-height: 1.5;
+  margin-right: 15px;
+  padding: 30px;
+  line-height: 1.75;
   text-indent: 40px;
 }
 
@@ -45,22 +49,24 @@ a{
   text-decoration: underline;
 }
 
-#topper{
-  margin:0;
+
+#banner{
+  background-image: url(http://localhost:3000/banner_img.jpg);
+  height: 450px;
+  background-size: cover;
+  display: block;
 }
-
-
 
 .picture{
   border-radius: 50%;
-  width: 300px;
+  width: 325px;
   height: auto;
   
 }
 
-.navbar, a{
+a{
   background-color: inherit;
-  margin: 3px;
+  margin: 10px;
 }
 
 .navbar > a:hover{
@@ -70,12 +76,15 @@ a{
 #head{
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   background-color: var(--border);
   height: 80px;
   font-size: 150%;
   color: white;
   padding-right: 7px;
+  padding-left: 7px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 #page{
@@ -95,12 +104,15 @@ a{
   justify-content: space-between;
   align-items: stretch;
   margin: 20px 0 25px 0;
+  padding: 10px;
+  
 }
 
 .bio{
   display: inherit;
   flex: 0 0 80%;
   flex-direction: column;
+  font-size: x-large;
 }
 
 address > a{
@@ -119,6 +131,7 @@ address > a:hover{
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
+  padding-left: 7px;
 }
 
 .container{
@@ -150,6 +163,8 @@ address > a:hover{
 }
 
 .info{
+  display: inherit;
+  flex-direction: column;
   background-color: var(--border);
   margin: 0 0 20px 0;
   border: 3px solid var(--border);
@@ -162,24 +177,38 @@ address > a:hover{
 
 .box:first-child{
   min-height: 375px;
-  flex-basis: 77%; /*I just kept changing this by a percentage until it lined up with the rest of my work. Not sure if there was a better/easier way.*/
+  flex-basis: 77%; 
 }
 
 .comic-call{
-  
+  background-image: url(http://localhost:3000/Spidey.jpg);
   font-family: 'Bangers', cursive;
 }
 
-.pass-gen{
-  
-  background-color: white;
+.budgeteer{
+  background-image: url(http://localhost:3000/Budgeteer.png);
+}
+
+.fitness{
+  background-image: url(http://localhost:3000/Fitness.jpg);
+}
+
+.garden{
+  background-image: url(http://localhost:3000/GardenBlog.png);
+}
+
+.warehouse{
+  background-image: url(http://localhost:3000/Warehouse.png);
+}
+
+.e-manage{
+  background-image: url(http://localhost:3000/Team.jpg);
 }
 
 #contact{
   display: block;
   text-align: center;
   margin: 100px 0 15px 0;
-  
 }
 
 #contact > h2{
@@ -214,7 +243,6 @@ address{
       border-bottom: 5px solid var(--border);
       margin-bottom: 10px;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -227,5 +255,4 @@ address{
       border-bottom: 5px solid var(--border);
       margin-bottom: 10px;
   }
-  
 }
