@@ -12,7 +12,7 @@ export default function Project() {
                     <a href="https://github.com/shiel1dm/Budgeteer">Github Repo</a>
                 </div>
             </a>
-            <a href="https://shiel1dm.github.io/fit-ing-in/" class='box fitness'>
+            <a href="https://desolate-harbor-93450.herokuapp.com/?id=61702e1fc13b05001699037c" class='box fitness'>
                 <div class ='info'>
                     <h3>Fitness tracker</h3>
                     <span>JS, Express, Mongoose</span>
