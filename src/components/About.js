@@ -4,13 +4,13 @@ export default function About() {
         <div class='bio'>
             <p>
                 My name is Daniel M. Shields, and this website is my first step towards chasing my dream career. I have always been a person who is committed to his job; I worked in a restaurant 
-                for four years, then I worked a sales floor for three years, and I also worked as a care provider in mental health services for the last ten years. In all my years working I am grateful 
-                for all the opportunities I had to help others and make an impact on their lives. Now I have a new career in sight, and I'm hoping that is why you're here! Pursuing full-stack development 
-                is my gamble on myself, in an attempt to achieve a career that I truly enjoy learning and implementing. Coding can be infuriating and difficult, as I'm sure you're aware. However, the 
-                feeling you get when you solve a difficult problem, or you finally get your project live after all your hard work is second to none. Which, I believe, is what makes me an excellent part 
-                of your team. Throughout my training I've gone through all the highs and lows you might expect while trying to completely change career paths and learn something as difficult as full-stack 
-                development. But, for each road-block I've faced I continued working and learning, because I am motivated and driven to make this career my own. If you're interested in learning more about my 
-                work history please click the link for my resume or linkedin profile
+                for four years, then I worked a sales floor for three years, and I also worked as a care provider in mental health services for the last ten years. I'm currently employeed with
+                the MDHHS, I'm a Children's Services Investigator.  In all my years working I am grateful for all the opportunities I had to help others and make an impact on their lives. 
+                Now I have a new career in sight, and I'm hoping that is why you're here! Pursuing full-stack development is my gamble on myself, in an attempt to achieve a career that I truly enjoy 
+                learning and implementing. Coding can be infuriating and difficult, as I'm sure you're aware. However, the feeling you get when you solve a difficult problem, or when your hard work pays off 
+                and you get your app running. Which, I believe, is what makes me an excellent part of your team. Throughout my training I've gone through all the highs and lows you might expect while trying 
+                to completely change career paths and learn something as difficult as full-stack development. But, for each road-block I've faced I continued working and learning, because I am motivated and 
+                driven to make this career my own. If you're interested in learning more about my work history please click the link for my resume or linkedin profile.
             </p>
             <p>
                 But, I'm not all 0's and 1's! I'm currently living in the Michigan area and I've been here most of my life. I was born in a small town, Midland, MI and spent most of my life there. I graduated 
